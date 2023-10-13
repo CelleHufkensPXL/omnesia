@@ -1,0 +1,1 @@
+Dit is een webshop gebaseerd op mijn eigen bandje genaamd 'Omnesia'
