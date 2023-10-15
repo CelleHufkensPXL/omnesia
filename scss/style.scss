@@ -39,10 +39,10 @@ body {
       .nav-links {
         list-style: none;
         display: flex;
-        margin-right: 50px;
+        align-items: center;
   
         li {
-          margin-right: 60px;
+          margin-right: 50px;
         
           &:hover{
             transform: translateY(-20%); 
@@ -124,6 +124,10 @@ body {
 }
 
 /*Poem section, bron: codepen.io*/
+
+.cite__container{
+  padding-left: 50px;
+}
 
 cite {
   display: flex;
@@ -416,7 +420,7 @@ footer {
 .product-detail {
   display: flex;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 100px;
   background-color: $second-color;
   border-radius: 5px;
   padding: 20px;
@@ -650,6 +654,10 @@ $padding-input: 10px;
     }
   }
   
+}
+
+.cite__container{
+  display: none;
 }
 
     /*About section*/
